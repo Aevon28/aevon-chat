@@ -1,0 +1,27 @@
+{
+  "name": "aevon-chat",
+  "version": "1.0.0",
+  "description": "Aevon Chat - WhatsApp-like Desktop Application",
+  "main": "electron/main.js",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "redux": "^4.2.1",
+    "react-redux": "^8.1.2",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.7.0",
+    "simple-peer": "^9.11.1"
+  },
+  "devDependencies": {
+    "electron": "^latest",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  }
+}
